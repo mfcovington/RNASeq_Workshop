@@ -1,0 +1,11 @@
+PASS	Basic Statistics	KNST1_NoIndex_L007_R1.fastq.gz
+PASS	Per base sequence quality	KNST1_NoIndex_L007_R1.fastq.gz
+PASS	Per sequence quality scores	KNST1_NoIndex_L007_R1.fastq.gz
+FAIL	Per base sequence content	KNST1_NoIndex_L007_R1.fastq.gz
+FAIL	Per base GC content	KNST1_NoIndex_L007_R1.fastq.gz
+WARN	Per sequence GC content	KNST1_NoIndex_L007_R1.fastq.gz
+PASS	Per base N content	KNST1_NoIndex_L007_R1.fastq.gz
+PASS	Sequence Length Distribution	KNST1_NoIndex_L007_R1.fastq.gz
+WARN	Sequence Duplication Levels	KNST1_NoIndex_L007_R1.fastq.gz
+WARN	Overrepresented sequences	KNST1_NoIndex_L007_R1.fastq.gz
+FAIL	Kmer Content	KNST1_NoIndex_L007_R1.fastq.gz

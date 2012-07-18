@@ -1,0 +1,11 @@
+PASS	Basic Statistics	KNSG2_NoIndex_L008_R1.fastq.gz
+PASS	Per base sequence quality	KNSG2_NoIndex_L008_R1.fastq.gz
+PASS	Per sequence quality scores	KNSG2_NoIndex_L008_R1.fastq.gz
+FAIL	Per base sequence content	KNSG2_NoIndex_L008_R1.fastq.gz
+FAIL	Per base GC content	KNSG2_NoIndex_L008_R1.fastq.gz
+PASS	Per sequence GC content	KNSG2_NoIndex_L008_R1.fastq.gz
+PASS	Per base N content	KNSG2_NoIndex_L008_R1.fastq.gz
+PASS	Sequence Length Distribution	KNSG2_NoIndex_L008_R1.fastq.gz
+FAIL	Sequence Duplication Levels	KNSG2_NoIndex_L008_R1.fastq.gz
+WARN	Overrepresented sequences	KNSG2_NoIndex_L008_R1.fastq.gz
+FAIL	Kmer Content	KNSG2_NoIndex_L008_R1.fastq.gz
