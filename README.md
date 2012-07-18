@@ -5,9 +5,9 @@ RNASeq_Workshop
 
 ##Galaxy Histories:
 
-[uplodaing files](https://main.g2.bx.psu.edu/u/mfcovington/h/uploading-files)
+[uploading files](https://main.g2.bx.psu.edu/u/mfcovington/h/uploading-files)
 
-[Maike's Grape Files](https://main.g2.bx.psu.edu/u/mfcovington/h/mikes-grape-files)
+[Mike's Grape Files](https://main.g2.bx.psu.edu/u/mfcovington/h/mikes-grape-files)
 
 
 ##Useful links:
