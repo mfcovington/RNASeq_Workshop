@@ -1,0 +1,8 @@
+mutant_shoot_1	GCTATT
+mutant_shoot_2	GGCGTT
+mutant_shoot_3	TAATGT
+mutant_shoot_4	TTAGAT
+WT_shoot_1	GGCTCT
+WT_shoot_2	GTATTT
+WT_shoot_3	TGAGGT
+WT_shoot_4	AAGCAT
