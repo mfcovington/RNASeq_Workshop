@@ -1,6 +1,14 @@
 RNASeq_Workshop
 ===============
 
+
+
+##Galaxy Histories:
+
+[uplodaing files](https://main.g2.bx.psu.edu/u/mfcovington/h/uploading-files)
+
+
+##Useful links:
 [Public Galaxy Server](https://main.g2.bx.psu.edu/)
 
 [FASTQ Quality Scores](http://en.wikipedia.org/wiki/FASTQ_format#Encoding)
