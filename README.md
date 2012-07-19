@@ -9,6 +9,7 @@ RNASeq_Workshop
 
 [Mike's Grape Files](https://main.g2.bx.psu.edu/u/mfcovington/h/mikes-grape-files)
 
+[grape barcodes (final)](https://main.g2.bx.psu.edu/u/mfcovington/h/grapebarcodesfinal)
 
 ##Useful links:
 [Public Galaxy Server](https://main.g2.bx.psu.edu/)
