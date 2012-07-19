@@ -13,6 +13,8 @@ RNASeq_Workshop
 
 [Grape: 10 million, barcode split (final)](https://main.g2.bx.psu.edu/u/amf1/h/7191210milsplit)
 
+[Grape - Full data set](https://main.g2.bx.psu.edu/u/mfcovington/h/grape-mfc)
+
 ##Useful links:
 [Public Galaxy Server](https://main.g2.bx.psu.edu/)
 
