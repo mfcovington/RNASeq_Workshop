@@ -1,6 +1,12 @@
 RNASeq_Workshop
 ===============
 
+##R
+
+To Install edgeR package:
+
+    source("http://bioconductor.org/biocLite.R")
+    biocLite("edgeR")
 
 
 ##Galaxy Histories:
