@@ -28,3 +28,30 @@ To Install edgeR package:
 
 [Data File Formats](http://genome.ucsc.edu/FAQ/FAQformat.html)
 
+
+##Arabidopsis homologs
+
+    AT1G12610
+    AT1G16820
+    AT1G35140
+    AT1G63030
+    AT2G07050
+    AT2G36640
+    AT2G44610
+    AT2G47180
+    AT3G03341
+    AT3G11760
+    AT3G23730
+    AT3G50980
+    AT3G57770
+    AT4G11070
+    AT4G17500
+    AT4G25810
+    AT4G35160
+    AT5G33406
+    AT5G42380
+    AT5G44210
+    AT5G51990
+    AT5G61890
+    AT5G64260
+    ATCG00020   
