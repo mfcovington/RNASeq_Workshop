@@ -38,17 +38,17 @@ data$samples
 data <- estimateCommonDisp(data)
 
 #calculate DE genes
-DEtest <- exactTest(data,pair=c("Heinz","M82"))
+DEtest <- exactTest(data,pair=c("WT","MT"))
 head(DEtest)
 
 #create a table of the results, with multiple testing correction
 results <- topTags(DEtest,n=Inf)
                 
-head(results,n=30) #top 30 genes
+head(results$table,n=30) #top 30 genes
 
 #how many genes are DE?
 
-sum(results$table$adj.P.Val<.01) 
+sum(results$table$FDR<.01) 
 
 #how many genes in each direction?
 summary(decideTestsDGE(DEtest,p.value=.01))
@@ -56,7 +56,7 @@ summary(decideTestsDGE(DEtest,p.value=.01))
 
 #plot the results
 #first create a table of DE  to highlight those with p < 0.01
-sig.genes <- rownames(results$table[results$table$adj.P.Val<0.01,])
+sig.genes <- rownames(results$table[results$table$FDR<0.01,])
 
 head(sig.genes)
 
@@ -64,16 +64,20 @@ plotSmear(data,de.tags=sig.genes)
 
 #what are the genes that are misexpressed?
 #for this we need to add some annotation
-annotation <- read.delim("ITAG2.3_all_Arabidopsis_annotated.tsv")
-head(annotation)
-head(results)
 
-results.annotated <- merge(results$table,annotation,by.x="row.names",by.y="ITAG",all.x=T,sort=F)
+#need to get rid of 2nd part of "GSVIVT01017617001|pacid:17827756"
+row.names(results$table) <- sub("\\|.*","",row.names(results$table))
+
+annotation <- read.delim("Vvinifera_145_annotation_info.txt", head=F)
+head(annotation)
+head(results$table)
+
+results.annotated <- merge(results$table,annotation,by.x="row.names",by.y="V1",all.x=T,sort=F)
 
 head(results.annotated,n=30)
 
 #perhaps easier to view in excel
-write.table(results.annotated,"M82_HZ_DE.tsv",sep="\t",row.names=F)
+write.table(results.annotated,"WT_MT_DE.tsv",sep="\t",row.names=F)
 
 
 
